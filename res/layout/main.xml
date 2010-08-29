@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/hello"
+    />
+<Button android:text="NoNewThread" android:id="@+id/no_new_thread" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="NewThreadDoesItAll" android:id="@+id/new_thread_does_it_all" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="NewThreadDelegates" android:id="@+id/new_thread_delegates" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<Button android:text="MyAsyncTask" android:id="@+id/my_async_task" android:layout_width="wrap_content" android:layout_height="wrap_content"></Button>
+<ImageView android:id="@+id/image_view" android:src="@drawable/icon"  android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageView>
+</LinearLayout>
